@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.ecommerce.microcommerce.MicrocommerceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.159 s - in com.ecommerce.microcommerce.MicrocommerceApplicationTests
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.943 s <<< FAILURE! - in com.ecommerce.microcommerce.MicrocommerceApplicationTests
+listerToutesLesVoituresFonctionne  Time elapsed: 0.456 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[{"id": 1,"modèle": "Polo","marque": "Volkswagen", "couleur": "Rouge flash" },{"id": 2, "modèle": "Vanquish", "marque": "Aston Martin", "couleur": "Gris"},{"id": 3, "modèle": "Impreza", "marque": "Subaru", "couleur": "Pimpée"},{"id": 4, "modèle": "Gallardo", "marque": "Lamborghini", "couleur": "Carbone"},{"id": 5, "modèle": "Camaro", "marque": "Chevrolet", "couleur": "Jaune"}]> but was: <[{"id":1,"modèle":"Polo","marque":"Volkswagen","couleur":"Rouge flash"},{"id":2,"modèle":"Vanquish","marque":"Aston Martin","couleur":"Gris"},{"id":3,"modèle":"Impreza","marque":"Subaru","couleur":"Pimpée"},{"id":4,"modèle":"Gallardo","marque":"Lamborghini","couleur":"Carbone"},{"id":5,"modèle":"Camaro","marque":"Chevrolet","couleur":"Jaune"}]>
+	at com.ecommerce.microcommerce.MicrocommerceApplicationTests.listerToutesLesVoituresFonctionne(MicrocommerceApplicationTests.java:28)
+
